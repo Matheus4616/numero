@@ -62,4 +62,13 @@ function finalizar() {
     function limpar() {
         resu.innerHTML = ''
     }
-} 
+}
+
+function limpar() {
+    valores.length = []
+    lista.innerHTML = ''
+    resu.innerHTML = ''
+    let texto =document.createElement('Option')
+    texto.text = '!!!Adicione um Valor!!!'
+    lista.appendChild(texto)
+}
